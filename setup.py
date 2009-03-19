@@ -2,6 +2,8 @@
 
 from setuptools import *
 
+print repr(find_packages(exclude=["termstyle.test"]))
+
 setup(
 	name='termstyle',
 	version='0.1',
