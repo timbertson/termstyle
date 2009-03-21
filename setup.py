@@ -6,7 +6,7 @@ print repr(find_packages(exclude=["termstyle.test"]))
 
 setup(
 	name='termstyle',
-	version='0.1',
+	version='0.1.1',
 	description='a dirt-simple terminal-colour library',
 	author='Tim Cuthbertson',
 	author_email='tim3d.junk+termstyle@gmail.com',
