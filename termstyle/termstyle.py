@@ -54,7 +54,7 @@ class Style(object):
 			return wrap_single(codes)
 			
 	def __str__(self):
-		if self.disabled:
+		if not self.enabled:
 			return ''
 		return self.on
 	
