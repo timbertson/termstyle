@@ -2,8 +2,9 @@
 termstyle
 =========
 
-termstyle is a simple python library for adding
-coloured output to terminal (console) programs.
+termstyle is a simple python library for adding coloured output to
+terminal (console) programs.  The definitions come from ECMA-048_, the
+"Control Functions for Coded Character Sets" standard.
 
 Installation::
 
@@ -67,4 +68,6 @@ Controls:
 	auto() - sets colouring on only if sys.stdout is a terminal
 	disabe() - disable colours
 	enable() - enable colours
+
+.. _ECMA-048: http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdf
 
