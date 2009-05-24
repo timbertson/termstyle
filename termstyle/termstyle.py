@@ -98,4 +98,5 @@ bg_white = Style(47)
 bold = Style(1)
 underscore = Style(4)
 inverted = Style(7)
+italic = Style(3)
 

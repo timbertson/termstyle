@@ -58,8 +58,12 @@ background colour::
 weight::
 
 	bold
-	underscore
 	inverted
+
+style::
+
+	italic
+	underscore
 
 Controls:
 ---------
