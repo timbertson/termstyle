@@ -96,6 +96,6 @@ bg_cyan = Style(46)
 bg_white = Style(47)
 
 bold = Style(1)
-underscore = Style(2)
+underscore = Style(4)
 inverted = Style(7)
 
