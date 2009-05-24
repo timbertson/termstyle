@@ -94,6 +94,7 @@ bg_blue = Style(44)
 bg_magenta = Style(45)
 bg_cyan = Style(46)
 bg_white = Style(47)
+bg_default = Style(49)
 
 bold = Style(1)
 underscore = Style(4)

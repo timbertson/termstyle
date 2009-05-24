@@ -54,6 +54,10 @@ background colour::
 	bg_magenta
 	bg_cyan
 	bg_white
+	bg_default
+
+In terminals supporting transparency ``bg_default`` is often used to set
+the background to transparent [#]_.
 
 weight::
 
@@ -73,5 +77,9 @@ Controls:
 	disabe() - disable colours
 	enable() - enable colours
 
+.. [#] Supporting terminals include rxvt-unicode_, and Eterm_.
+
 .. _ECMA-048: http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdf
+.. _rxvt-unicode: http://software.schmorp.de/
+.. _Eterm: http://www.eterm.org/
 
