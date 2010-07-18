@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://gfxmonk.net/dist/0install/python-termstyle.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>termstyle</name>
+  <summary>console colouring for python</summary>
+  <description>
+</description>
+  <group>
+    <implementation id="sha1new=1f5b66dcd48fa38740aa98bb2796f0adb7eeab04" released="2010-07-18" version="0.1.5">
+      <manifest-digest sha256="9b0ff9b07c1d424484b5aa20fc2db7827a372d84515e8caf46b005f54a034e07"/>
+      <archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.2.tgz" size="3114"/>
+    </implementation>
+  </group>
+</interface>
