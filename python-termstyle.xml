@@ -3,6 +3,7 @@
 <interface uri="http://gfxmonk.net/dist/0install/python-termstyle.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>termstyle</name>
   <summary>console colouring for python</summary>
+	<homepage>http://github.com/gfxmonk/termstyle</homepage>
   <description>
 </description>
   <group>
