@@ -65,7 +65,10 @@ class Style(object):
 
 def auto():
 	"""set colouring on if STDOUT is a terminal device, off otherwise"""
-	Style.enabled = sys.stdout.isatty()
+	if hasattr(sys.stdout, 'isatty') and sys.stdout.isatty():
+		Style.enabled = True
+	else:
+		Style.enabled = False
 
 def enable():
 	"""force coloured output"""
