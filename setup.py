@@ -8,12 +8,12 @@ except StandardError:
 	readme = 'see readme.rst'
 
 setup(
-	name='termstyle',
-	version='0.1.5',
+	name='python-termstyle',
+	version='0.1.6',
 	description='a dirt-simple terminal-colour library',
 	author='Tim Cuthbertson',
 	author_email='tim3d.junk+termstyle@gmail.com',
-	url='http://github.com/gfxmonk/termstyle/tree',
+	url='http://gfxmonk.net/dist/0install/python-termstyle.xml',
 	packages=find_packages(exclude=["test"]),
 	
 	long_description=readme,

@@ -11,5 +11,9 @@
       <manifest-digest sha256="9b0ff9b07c1d424484b5aa20fc2db7827a372d84515e8caf46b005f54a034e07"/>
       <archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.2.tgz" size="3114"/>
     </implementation>
+    <implementation id="sha1new=9f728d8ba0eb5379c907b85a9662c54935f1e0ca" released="2010-11-05" version="0.1.6">
+      <manifest-digest sha256="a7283c6fe262bc88ed270a91304da243c474d32353c2c9d6c6f4003bacfce27c"/>
+      <archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.6.tgz" size="3607"/>
+    </implementation>
   </group>
 </interface>
