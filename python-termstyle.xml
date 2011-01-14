@@ -153,7 +153,7 @@ enable() - enable colours
 		</div>
 	</rich-description>
 	<group>
-		<environment insert="" mode="append" name="PYTHONPATH"/>
+		<environment insert="" mode="prepend" name="PYTHONPATH"/>
 		<implementation id="sha1new=1f5b66dcd48fa38740aa98bb2796f0adb7eeab04" released="2010-07-18" version="0.1.5">
 			<manifest-digest sha256="9b0ff9b07c1d424484b5aa20fc2db7827a372d84515e8caf46b005f54a034e07"/>
 			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.2.tgz" size="3114"/>
