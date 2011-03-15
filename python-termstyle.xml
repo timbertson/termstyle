@@ -1,6 +1,6 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://gfxmonk.net/dist/0install/python-termstyle.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="http://gfxmonk.net/dist/0install/python-termstyle.xml">
 	<name>termstyle</name>
 	<summary>console colouring for python</summary>
 	<homepage>http://github.com/gfxmonk/termstyle</homepage>
@@ -11,7 +11,7 @@ termstyle
 
 termstyle is a simple python library for adding coloured output to
 terminal (console) programs.  The definitions come from ECMA-048_, the
-&quot;Control Functions for Coded Character Sets&quot; standard.
+"Control Functions for Coded Character Sets" standard.
 
 Installation:
 -------------
@@ -23,12 +23,12 @@ Example Usage:
 ::
 
 	from termstyle import *
-	print &quot;%s:%s&quot; % (red('Hey'), green('how are you?'))
+	print "%s:%s" % (red('Hey'), green('how are you?'))
 	print blue('How ', bold('you'), ' doin?')
 
 or, you can use a colour just as a string::
 
-	print &quot;%sBlue!%s&quot; % (blue, reset)
+	print "%sBlue!%s" % (blue, reset)
 
 Styles:
 -------
@@ -92,27 +92,34 @@ Controls:
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<div id="termstyle">
 				<h1>termstyle</h1>
-				<p>termstyle is a simple python library for adding coloured output to terminal (console) programs. The definitions come from <a href="http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdf">ECMA-048</a>, the &quot;Control Functions for Coded Character Sets&quot; standard.</p>
+				<p>termstyle is a simple python library for adding coloured output to terminal (console) programs. The definitions come from <a href="http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-048.pdf">ECMA-048</a>, the "Control Functions for Coded Character Sets" standard.</p>
 				<div id="installation:">
 					<h2>Installation:</h2>
 					<p>I thoroughly recommend using the zero-install feed (see the project homepage) to manage your dependencies if at all possible. <a href="http://0install.net/">zero-install</a> provides a much better system than pip or easy_install, and works with absolutely any language and allows decentralised package management that requires no special privileges to install.</p>
 				</div>
 				<div id="example-usage:">
 					<h2>Example Usage:</h2>
-					<pre><code>from termstyle import *
-print &quot;%s:%s&quot; % (red('Hey'), green('how are you?'))
+					<pre>
+						<code>from termstyle import *
+print "%s:%s" % (red('Hey'), green('how are you?'))
 print blue('How ', bold('you'), ' doin?')
-</code></pre>
+</code>
+					</pre>
 					<p>or, you can use a colour just as a string:</p>
-					<pre><code>print &quot;%sBlue!%s&quot; % (blue, reset)
-</code></pre>
+					<pre>
+						<code>print "%sBlue!%s" % (blue, reset)
+</code>
+					</pre>
 				</div>
 				<div id="styles:">
 					<h2>Styles:</h2>
-					<pre><code>reset or default (no colour / style)
-</code></pre>
+					<pre>
+						<code>reset or default (no colour / style)
+</code>
+					</pre>
 					<p>colour:</p>
-					<pre><code>black
+					<pre>
+						<code>black
 red
 green
 yellow
@@ -120,9 +127,11 @@ blue
 magenta
 cyan
 white
-</code></pre>
+</code>
+					</pre>
 					<p>background colour:</p>
-					<pre><code>bg_black
+					<pre>
+						<code>bg_black
 bg_red
 bg_green
 bg_yellow
@@ -131,23 +140,30 @@ bg_magenta
 bg_cyan
 bg_white
 bg_default
-</code></pre>
+</code>
+					</pre>
 					<p>In terminals supporting transparency <code>bg_default</code> is often used to set the background to transparent [#]_.</p>
 					<p>weight:</p>
-					<pre><code>bold
+					<pre>
+						<code>bold
 inverted
-</code></pre>
+</code>
+					</pre>
 					<p>style:</p>
-					<pre><code>italic
+					<pre>
+						<code>italic
 underscore
-</code></pre>
+</code>
+					</pre>
 				</div>
 				<div id="controls:">
 					<h2>Controls:</h2>
-					<pre><code>auto() - sets colouring on only if sys.stdout is a terminal
+					<pre>
+						<code>auto() - sets colouring on only if sys.stdout is a terminal
 disabe() - disable colours
 enable() - enable colours
-</code></pre>
+</code>
+					</pre>
 				</div>
 			</div>
 		</div>
@@ -163,8 +179,12 @@ enable() - enable colours
 			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.6.tgz" size="3607"/>
 		</implementation>
 		<implementation id="sha1new=93d781ad4b723d154462f990254f78d3bab7456e" released="2011-01-29" version="0.1.7">
-    <manifest-digest sha256="31488cd005a3f9182e6738068a5e9ddfd6d28db370d8b0a0b16d5bbc53048665"/>
-    <archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.7.tgz" size="4265"/>
-  </implementation>
+			<manifest-digest sha256="31488cd005a3f9182e6738068a5e9ddfd6d28db370d8b0a0b16d5bbc53048665"/>
+			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.7.tgz" size="4265"/>
+		</implementation>
+		<implementation id="sha1new=ada58698e40a6f11b40dbebaa11f70061b47172d" released="2011-03-15" version="0.1.8">
+			<manifest-digest sha256="cbcee0509b194eec74a5fe923999b505293c5d0a20b3d79203fa6f47a942b24e"/>
+			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.8.tgz" size="4312"/>
+		</implementation>
 	</group>
 </interface>
