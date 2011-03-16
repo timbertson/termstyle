@@ -1,7 +1,7 @@
 0:
 	mkzero-gfxmonk \
 		-v `cat VERSION` \
-		-p termstyle \
+		-p termstyle.py \
 		-p setup.py \
 		python-termstyle.xml
 

@@ -168,6 +168,17 @@ enable() - enable colours
 			</div>
 		</div>
 	</rich-description>
+	<pypi-extra xmlns="http://gfxmonk.net/dist/0install"><![CDATA[
+	classifiers=[
+		"License :: OSI Approved :: BSD License",
+		"Programming Language :: Python",
+		"Programming Language :: Python :: 3",
+		"Intended Audience :: Developers",
+		"Topic :: Software Development :: Libraries :: Python Modules",
+	],
+	keywords='output colour console ansi',
+	license='BSD',
+		]]></pypi-extra>
 	<group>
 		<environment insert="" mode="prepend" name="PYTHONPATH"/>
 		<implementation id="sha1new=1f5b66dcd48fa38740aa98bb2796f0adb7eeab04" released="2010-07-18" version="0.1.5">
