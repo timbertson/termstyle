@@ -6,4 +6,4 @@
 		python-termstyle.xml
 
 pypi:
-	./setup.py register
+	./setup.py register sdist upload

@@ -197,5 +197,9 @@ enable() - enable colours
 			<manifest-digest sha256="cbcee0509b194eec74a5fe923999b505293c5d0a20b3d79203fa6f47a942b24e"/>
 			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.8.tgz" size="4312"/>
 		</implementation>
+		<implementation id="sha1new=e718d149b78028f3ac39ee4de42e0b7644ad48fb" released="2011-03-16" version="0.1.9">
+			<manifest-digest sha256="ee3dc9b097ac0b7682fab8753a5dab45f0a9c189544c13a369ada8b9e1f4fde8"/>
+			<archive href="http://gfxmonk.net/dist/0install/python-termstyle/python-termstyle-0.1.9.tgz" size="2901"/>
+		</implementation>
 	</group>
 </interface>
