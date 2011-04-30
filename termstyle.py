@@ -59,7 +59,7 @@ class Style(object):
 		return self.on
 	
 	def __call__(self, *args):
-		contents = ''.join([self.on + str(arg) for arg in args])
+		contents = ''.join(["%s%s" % (self.on, arg) for arg in args])
 		return "%s%s" % (contents, self.off)
 		
 
