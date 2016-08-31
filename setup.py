@@ -13,7 +13,7 @@ setup(
 	name='termstyle',
 	py_modules=['termstyle'],
 	url='http://github.com/gfxmonk/termstyle',
-	version='0.1.10',
+	version='0.1.11',
 classifiers=[
 		"License :: OSI Approved :: BSD License",
 		"Programming Language :: Python",
